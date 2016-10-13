@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -121,10 +121,26 @@ iframe {
 	margin: 0 0 10px;
 }
 
-.border_right {
-	border-right: 1px dotted #ccc;
+.border_right1 {
+	border-right: 1px none #ccc;
 	padding-right: 20px;
+    float: left;
+    margin: 0px 115px 0px 0px;
 }
+.border_right2 {
+	border-right: 1px none #ccc;
+	padding-right: 0px;
+    float: left;
+    margin: 0px 0px 0px 15px;
+}
+.border_right3 {
+	border-right: 1px none #ccc;
+	padding-right: 0px;
+    float: left;
+    margin: 0px 0px 0px 100px;
+}
+
+
 
 .thumbs_up {
 	background: white url(../images/thumbs_up.jpg) no-repeat top right;
@@ -303,3 +319,27 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+.grass {
+    width: 635px;
+    height: 600px;
+    margin: 0px 4px 0px 0px ;
+    float: left;
+
+
+}
+.archive{
+    width:315px;
+    height: 600px;
+    float: left;
+    margin: 0px 0px 0px 4px ;
+
+
+
+}
+.line{
+    width: 315px;
+     margin: 8px 5px 0px 0px ;
+    float: left;
+
+}
