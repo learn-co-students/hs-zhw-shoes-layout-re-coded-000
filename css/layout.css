@@ -32,12 +32,12 @@ float: left;
 max-width: 66%;
 float: left;
 }
-
+.spec{margin-left: 2%;}
 .col-3 {
-margin-left: 2%;
 float: left;
 width: 32%;
 }
+
 
 .start {
   margin-left: 0%;
