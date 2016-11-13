@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -17,8 +17,10 @@ img.verif_img {
 
 /********** Global **********/
 
-body {
+body , html{
 	background: url(../images/handmadepaper.png);
+	width: 100%;
+	height: 100%;
 }
 
 h2, h3 {
@@ -114,6 +116,7 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
@@ -125,6 +128,64 @@ iframe {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
 }
+
+
+.col{
+	float: left;
+	margin: 1%;
+	width: 31%;
+  background: white;
+}
+
+.row{
+	display: inline;
+}
+
+.col-1{
+	float: left;
+	width: 64%;
+	margin: 1%;
+  background: white;
+}
+.image{
+	width: 95%;
+	margin-right: 1%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.col-2{
+	float: right;
+	margin: 1%;
+	width: 31%;
+  background: white;
+}
+
+#details{
+	margin: o auto;
+	width: 100%;
+	display: inline;
+}
+.sh2{
+	width: 32%;
+}
+
+.border_right{
+	width: 30%;
+	float: left;
+	display: inline;
+}
+.p1{
+	width: 90%;
+	margin-left: 2%;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 
 .thumbs_up {
 	background: white url(../images/thumbs_up.jpg) no-repeat top right;
