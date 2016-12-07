@@ -21,7 +21,31 @@
 .clear {
   clear: both;
 }
-
+.shadow {
+	box-shadow: 0 3px 10px #333;
+}
 /* Posititoning Classes */
+.col-2{
+  width:66%;
+  float:left;
+  margin-left: 1%;
+}
+.col-1{
+  width:32%;
+  float: left;
+  margin-left: 2%;
 
-
+}
+.first{
+  margin-left: 0;
+}
+.row{
+  clear:both;
+  margin-bottom: 15px;
+}
+/*.lad{
+  width:31%;
+  float:left;
+  display: block;
+  margin-left: 1%;
+}
