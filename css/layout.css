@@ -23,5 +23,37 @@
 }
 
 /* Posititoning Classes */
+.shadow1 {
+float: left;
+  width: 635px;
 
 
+}
+
+.shadow2 {
+padding: 2%;
+
+margin-left: 68%;
+
+margin-bottom: 2%;
+}
+.shadow3 ,.shadow4 , .shadow5 {
+  display: inline-block;
+}
+.shadow3 {
+  width: 31.68%;
+  margin-right: 2%;
+
+}
+.shadow4 {
+  width: 31.68%;
+  margin-right: 2%;
+
+}
+
+.shadow5 {
+  width: 31.68%;
+}
+.border_right  ,.follow {
+  display: inline-block;
+}
