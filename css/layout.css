@@ -23,5 +23,38 @@
 }
 
 /* Posititoning Classes */
+.row {
+    clear: both;
+    margin-bottom: 2%;
+  }
 
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+.col-1{
+margin: 5px;
+float: left;
+width: 32%;
+background: #fff;
+padding-top:30px;}
+.col-2{
+  float: left;
+  width: 66%;
+background: #fff;
+padding: 20px;
+}
 
+.col-3{
+background: #fff;
+}
+.padding{
+  padding: 24px;
+}
+section{
+  background: none;
+}
